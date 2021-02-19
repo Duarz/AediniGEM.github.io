@@ -32,6 +32,8 @@ html, body {
     font-size: 70px;
     vertical-align: middles;
     padding-bottom: 10px;
+	font-family:'Montserrat', sans-serif;
+	font-weight: 700;
 }
 
 .topbar a:hover {
@@ -78,6 +80,7 @@ html, body {
 .button a {
     text-decoration: none;
     color:white;
+	font-family:'Montserrat', sans-serif;
 }
 
 .button:hover{
@@ -116,4 +119,27 @@ html, body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 5px;
+}
+
+.gallery {
+	display:grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	grid-gap:10px;
+	justify-content:center;
+	width:100%;
+	align:center;
+}
+
+.gallery-image {
+	  height: auto;
+	  width:100%;
+	  align-items:center;
+}
+
+.gallery-image img {
+	max-width: 200px;
+	max-height: 150px;
+	height:auto;
+	width:100%;
 }
